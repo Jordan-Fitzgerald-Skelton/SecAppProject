@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insecure App</title>
+</head>
+<body>
+    <h2>Signup</h2>
+    <form id="insecureSignupForm">
+        <input type="text" id="insecureSignupEmail" placeholder="Email">
+        <input type="password" id="insecureSignupPassword" placeholder="Password">
+        <button type="submit">Signup</button>
+    </form>
+
+    <h2>Login</h2>
+    <form id="insecureLoginForm">
+        <input type="text" id="insecureEmail" placeholder="Email">
+        <input type="password" id="insecurePassword" placeholder="Password">
+        <button type="submit">Login</button>
+    </form>
+
+    <h2>Profile</h2>
+    <input type="text" id="insecureProfileName" placeholder="Enter your email">
+    <button onclick="viewInsecureProfile()">View Profile</button>
+    <div id="insecureProfileResult"></div>
+
+    <button onclick="logout()">Logout</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
