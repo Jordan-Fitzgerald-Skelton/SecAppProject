@@ -1,0 +1,8 @@
+
+{"message":"POST /register","level":"info","timestamp":"2025-04-07T21:13:55.664Z"}
+{"message":"POST /login","level":"info","timestamp":"2025-04-07T21:14:08.536Z"}
+{"message":"POST /register","level":"info","timestamp":"2025-04-07T21:15:44.337Z"}
+{"message":"POST /login","level":"info","timestamp":"2025-04-07T21:15:59.241Z"}
+{"message":"POST /register","level":"info","timestamp":"2025-04-07T21:19:42.063Z"}
+{"message":"POST /login","level":"info","timestamp":"2025-04-07T21:19:59.096Z"}
+{"message":"GET /profile","level":"info","timestamp":"2025-04-07T21:23:02.661Z"}

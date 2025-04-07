@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Version</title>
+</head>
+
+<body>
+    <h2>Signup</h2>
+    <form id="secureSignupForm">
+        <input type="email" id="secureSignupEmail" placeholder="Email">
+        <input type="password" id="secureSignupPassword" placeholder="Password">
+        <button type="submit">Signup</button>
+    </form>
+
+    <h2>Login</h2>
+    <form id="secureLoginForm">
+        <input type="email" id="secureEmail" placeholder="Email">
+        <input type="password" id="securePassword" placeholder="Password">
+        <button type="submit">Login</button>
+    </form>
+
+    <h2 id="viewProfileTitle" style="display: none;" >User Profile</h2>
+    <button id="viewProfileButton" style="display: none;" onclick="viewSecureProfile()">View Profile</button>
+    <div id="secureProfileResult" style="display: none;" ><p>Your details.</p></div>
+
+    <button id="logoutButton" style="display: none;" onclick="logout()">Logout</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
